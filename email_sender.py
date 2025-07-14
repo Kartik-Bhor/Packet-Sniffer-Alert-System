@@ -5,9 +5,9 @@ import smtplib
 from email.mime.text import MIMEText
 import time
 
-SENDER_EMAIL = "kartikbhor2478@gmail.com"
-RECEIVER_EMAIL = "kartibhor007@gmail.com"
-APP_PASSWORD = "cnsylfykknzypnmk"
+SENDER_EMAIL = "your_email@gmail.com"
+RECEIVER_EMAIL = "receiver_email@gmail.com"
+APP_PASSWORD = "your 16 character app password"
 
 def send_email(ip, count, timestamp, alert_type):
     subject = f"🚨 Network Alert: {alert_type.upper()} from {ip}"
