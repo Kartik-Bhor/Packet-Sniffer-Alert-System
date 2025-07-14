@@ -64,6 +64,16 @@ sudo python3 sniffer_gui_trigger_email.py
 
 2. Generate an App Password here.
 
+
+3. Replace the placeholders in email_sender.py:
+
+
+
+SENDER_EMAIL = "your_email@gmail.com"
+RECEIVER_EMAIL = "receiver_email@gmail.com"
+APP_PASSWORD = "your_16_character_app_password"
+
+
 ---
 
 🧪 Simulate Attacks for Testing
